@@ -1,0 +1,19 @@
+#CodesList - список кодов
+CodesList:
+  - some_code
+
+Codes:
+  some_code:
+    #Activated - активирован ли код, сли false - не активе, true - активен
+    Activated: false
+    #StatusCode - Статус, который даёт код игроку(статус не даёт прав)
+    StatusCode: Игрок
+    #Лист Players - список игроков, которые использовали этот код
+    Players:
+      - someone
+      - Ben
+    #NumberOfUsing - количество оставшихся использований
+    NumberOfUsing: 0
+    #Specie - это раса, расы: people - люди, animal-like - Звероподобные, slime - Слаймы, cyborg - Киборги, dwarf - Дворфы, demon - Демоны, dragon - Драконоиды.
+    #ВНИМАНИЕ ЕСЛЫ ВЫ МЕЯЕТЕ ЭТО ЗНАЧЕНИЕ В РУЧНУЮ  БУДТЕ КРАЙНЕ АККУРАТНЫ!!!
+    Specie: people

@@ -1,0 +1,45 @@
+isHub: false
+info:
+  prefix: "§7§l[§bS§3D§7§l]"
+  discord: "https://discord.gg/"
+Chat:
+  Local: '§e[§6Локально§e]'
+  Global: '§e[§aГлобал§e]'
+group: 'players'
+CmdToTp: /server The-Reality-of-Spasenia
+codes:
+  vedcode: '&4Введите код'
+Profil:
+  RealName: true
+  Nick: true
+  DiscordName: true
+  Age: true
+  Cels: true
+  About: true
+  LorePlayer: false
+  Status: true
+  CanClose: true
+CommandMe:
+  #Это радиус действия команды
+  Radius: 50
+  #Это отправляется при совершении игроком действия * имя игрока - player, действие - message
+  Format: '&5* player message&5*'
+  #Это пишется при вводе команды над строкой ввода
+  OnTabComplete: '&9действие'
+Rospise:
+  #Это пишется при вводе команды над строкой ввода
+  OnTabComplete: '&3роспись'
+NonRPCommand:
+  #Это радиус действия команды
+  Radius: 50
+  #Это пишется при вводе команды над строкой ввода
+  OnTabComplete: '&6Сообщение'
+Test:
+  TextMessage: "Префикс: <prefix>, Дискорд: <discord>"
+Spawn:
+  Location: ''
+  On:
+    Respawn: false
+    Join: false
+Hub:
+  World: "world"

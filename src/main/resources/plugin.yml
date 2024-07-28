@@ -1,0 +1,63 @@
+name: SD
+version: '${project.version}'
+main: sd.sd.SD
+api-version: 1.19
+authors: [ Batr ]
+depend:
+  - Vault
+commands:
+  play:
+    description: Переносит в Реальность Спасения
+    permission-message: Для начала игры вам надо быть игроком, если вы ещё не подали заявку, то переходите в наш дискорд https://discord.gg/sd-mc и там подаёте заявку, если ваше заявку уже приняли, то введите код, который вам выдали /sd login <код> если вам его не дали, напишите batr#7749
+    permission: sd.reg
+    aliases:
+      - играть
+      - зайти
+  dice:
+    description: РП кубик
+    aliases:
+      - кубик
+      - рпкубик
+  balt:
+    aliases:
+      - b
+      - sd
+      - балт
+#  профиль:
+#    aliases:
+#      - profil
+#      - pr
+  роспись:
+    aliases:
+      - rospis
+  me:
+    aliases:
+      - do
+      - я
+  n:
+    aliases:
+      - non
+      - nonrp
+      - nrp
+    description: Non rp message
+  crafts:
+    description: Edit crafts
+    permission: sd.admin
+    permission-message: §4Ошибка!
+  shops:
+    description: Управление магазинами
+    permission: sd.admin
+    permission-message: §4Ошибка!
+    aliases:
+      - магазины
+  hub:
+    aliases:
+      - spawn
+website: https://discord.gg/sd-mc
+permissions:
+  sd.reg:
+    default: false
+    description: Даёт возможности игроков
+  sd.admin:
+    default: op
+    description: Даёт возможности администраторов
